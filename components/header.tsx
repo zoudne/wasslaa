@@ -133,7 +133,8 @@ export function Header() {
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
               transition={{ type: "spring", damping: 25, stiffness: 200 }}
-              className="fixed top-0 right-0 h-full w-80 bg-gradient-to-b from-primary to-secondary shadow-2xl z-50 md:hidden"
+              className="fixed top-0 right-0 h-full w-80 shadow-2xl z-50 md:hidden"
+              style={{ background: 'linear-gradient(to bottom, #7B2553, #A50E64)' }}
             >
               <div className="flex flex-col h-full">
                 {/* Drawer Header */}
