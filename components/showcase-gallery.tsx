@@ -37,7 +37,7 @@ export function ShowcaseGallery() {
           </motion.div>
 
           {/* Hover Reveal */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -47,9 +47,9 @@ export function ShowcaseGallery() {
             <div className="max-w-3xl mx-auto px-2 sm:px-0">
               <HoverReveal beforeImage="/images/before.jpg" afterImage="/images/after.jpg" />
             </div>
-          </motion.div>
+          </motion.div> */}
 
-          {/* Split View */}
+          {/* Split View
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -60,7 +60,7 @@ export function ShowcaseGallery() {
             <div className="max-w-5xl mx-auto px-2 sm:px-0">
               <SplitView beforeImage="/images/old-picture.jpg" afterImage="/images/new-picture.jpg" />
             </div>
-          </motion.div>
+          </motion.div> */}
 
           {/* Tap Reveal */}
           <motion.div
