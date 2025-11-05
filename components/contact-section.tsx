@@ -41,8 +41,8 @@ export function ContactSection() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-6xl font-black text-foreground mb-6 text-balance">تواصل معنا</h2>
-          <p className="text-xl text-muted-foreground leading-relaxed">منتجاتك تستاهل تصوير يبيّن قيمتها</p>
+          <h2 className="text-3xl md:text-5xl font-black text-foreground mb-6 text-balance">تواصل معنا</h2>
+          <p className="text-base md:text-lg text-muted-foreground leading-relaxed">منتجاتك تستاهل تصوير يبيّن قيمتها</p>
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-6">
@@ -64,7 +64,7 @@ export function ContactSection() {
               </div>
               <div className="text-right">
                 <p className="text-sm text-muted-foreground mb-1">{item.label}</p>
-                <p className="text-xl font-bold text-foreground">{item.value}</p>
+                <p className="text-base md:text-lg font-bold text-foreground">{item.value}</p>
               </div>
             </motion.a>
           ))}
@@ -77,10 +77,10 @@ export function ContactSection() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="mt-16 text-center bg-gradient-to-br from-[#7B2553] to-[#A50E64] p-12 rounded-3xl shadow-2xl"
         >
-          <h3 className="text-3xl md:text-4xl font-black text-white mb-4 text-balance">
+          <h3 className="text-2xl md:text-3xl font-black text-white mb-4 text-balance">
             المنتج اللي نصوره غير، ينشهر أسرع
           </h3>
-          <p className="text-xl text-white/90 mb-8 leading-relaxed">نخلي زبونك يحب المنتج من أول نظرة</p>
+          <p className="text-base md:text-lg text-white/90 mb-8 leading-relaxed">نخلي زبونك يحب المنتج من أول نظرة</p>
           <a
             href="tel:+96567634966"
             className="bg-white text-[#7B2553] hover:bg-white/90 font-bold py-4 px-10 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl inline-block"

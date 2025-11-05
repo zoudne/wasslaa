@@ -31,7 +31,7 @@ function FeatureCard({ text, index }: { text: string; index: number }) {
       >
         {index + 1}
       </motion.div>
-      <p className="text-xl font-bold text-foreground leading-relaxed text-pretty">{text}</p>
+      <p className="text-base md:text-lg font-bold text-foreground leading-relaxed text-pretty">{text}</p>
     </motion.div>
   )
 }
@@ -47,8 +47,8 @@ export function FeaturesSection() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-6xl font-black text-foreground mb-6 text-balance">ليش تختار وصلة ميديا؟</h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+          <h2 className="text-3xl md:text-5xl font-black text-foreground mb-6 text-balance">ليش تختار وصلة ميديا؟</h2>
+          <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             صور محترفة ترفع قيمة منتجك بعيون عملائك
           </p>
         </motion.div>

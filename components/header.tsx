@@ -84,7 +84,7 @@ export function Header() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.1 * index }}
                   onClick={() => scrollToSection(item.id)}
-                  className={`transition-colors font-medium text-lg ${
+                  className={`transition-colors font-medium text-base ${
                     isScrolled ? "text-foreground hover:text-primary" : "text-white hover:text-white/80"
                   }`}
                 >
@@ -159,7 +159,7 @@ export function Header() {
                       animate={{ opacity: 1, x: 0 }}
                       transition={{ delay: 0.1 * index }}
                       onClick={() => scrollToSection(item.id)}
-                      className="block w-full text-right text-white hover:bg-white/10 transition-colors font-medium text-xl py-4 px-4 rounded-lg"
+                      className="block w-full text-right text-white hover:bg-white/10 transition-colors font-medium text-base md:text-lg py-4 px-4 rounded-lg"
                     >
                       {item.label}
                     </motion.button>
@@ -170,7 +170,7 @@ export function Header() {
                 <div className="p-6 border-t border-white/20">
                   <Button
                     onClick={() => scrollToSection("contact")}
-                    className="w-full bg-white hover:bg-white/90 text-primary font-bold text-lg py-6"
+                    className="w-full bg-white hover:bg-white/90 text-primary font-bold text-base md:text-lg py-6"
                   >
                     احجز استشارة مجانية
                   </Button>

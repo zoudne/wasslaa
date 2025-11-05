@@ -6,7 +6,7 @@ export function Footer() {
       <div className="container mx-auto max-w-7xl">
         <div className="flex flex-col items-center justify-center gap-6">
           <Image src="/images/white-logo.png" alt="وصلة ميديا" width={150} height={60} />
-          <p className="text-center text-white/80 text-lg max-w-md">مو كل تصوير يبيع.. تصويرنا يسوّق</p>
+          <p className="text-center text-white/80 text-base max-w-md">مو كل تصوير يبيع.. تصويرنا يسوّق</p>
           <div className="flex flex-col md:flex-row items-center gap-4 md:gap-6 text-sm text-white/60">
             <a href="tel:+96567634966" className="hover:text-white transition-colors">
               67634966

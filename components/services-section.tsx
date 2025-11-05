@@ -47,8 +47,8 @@ export function ServicesSection() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-6xl font-black text-foreground mb-6 text-balance">خدماتنا</h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+          <h2 className="text-3xl md:text-5xl font-black text-foreground mb-6 text-balance">خدماتنا</h2>
+          <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             نخلي منتجك نجم السوشيال ميديا
           </p>
         </motion.div>
@@ -69,8 +69,8 @@ export function ServicesSection() {
               >
                 <service.icon className="w-8 h-8 text-primary group-hover:text-white transition-colors" />
               </motion.div>
-              <h3 className="text-2xl font-bold text-foreground mb-4">{service.title}</h3>
-              <p className="text-muted-foreground leading-relaxed">{service.description}</p>
+              <h3 className="text-xl md:text-2xl font-bold text-foreground mb-4">{service.title}</h3>
+              <p className="text-base text-muted-foreground leading-relaxed">{service.description}</p>
             </motion.div>
           ))}
         </div>

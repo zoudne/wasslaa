@@ -16,8 +16,8 @@ export function ShowcaseGallery() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-3 sm:mb-4">معرض أعمالنا</h2>
-          <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-2xl mx-auto px-2">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">معرض أعمالنا</h2>
+          <p className="text-sm sm:text-base md:text-lg text-gray-600 max-w-2xl mx-auto px-2">
             تفاعل مع صورنا لترى كيف نحول المنتجات العادية إلى تحف فنية
           </p>
         </motion.div>
@@ -30,7 +30,7 @@ export function ShowcaseGallery() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 text-center px-2">مقارنة بالسحب</h3>
+            <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 text-center px-2">مقارنة بالسحب</h3>
             <div className="max-w-3xl mx-auto px-2 sm:px-0">
               <SliderComparison beforeImage="/images/old-picture.jpg" afterImage="/images/new-picture.jpg" />
             </div>
@@ -43,7 +43,7 @@ export function ShowcaseGallery() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 text-center px-2">كشف بالتمرير</h3>
+            <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 text-center px-2">كشف بالتمرير</h3>
             <div className="max-w-3xl mx-auto px-2 sm:px-0">
               <HoverReveal beforeImage="/images/before.jpg" afterImage="/images/after.jpg" />
             </div>
@@ -56,7 +56,7 @@ export function ShowcaseGallery() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 text-center px-2">عرض جنبًا إلى جنب</h3>
+            <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 text-center px-2">عرض جنبًا إلى جنب</h3>
             <div className="max-w-5xl mx-auto px-2 sm:px-0">
               <SplitView beforeImage="/images/old-picture.jpg" afterImage="/images/new-picture.jpg" />
             </div>
@@ -69,7 +69,7 @@ export function ShowcaseGallery() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 text-center px-2">كشف بالضغط</h3>
+            <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 text-center px-2">كشف بالضغط</h3>
             <div className="max-w-3xl mx-auto px-2 sm:px-0">
               <TapReveal beforeImage="/images/before.jpg" afterImage="/images/after.jpg" />
             </div>

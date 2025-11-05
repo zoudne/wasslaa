@@ -39,7 +39,7 @@ export function CTASection() {
           transition={{ duration: 0.8 }}
           className="text-center text-white"
         >
-          <h2 className="text-4xl md:text-6xl font-black mb-12 text-balance">صورة قوية = مبيعات قوية</h2>
+          <h2 className="text-3xl md:text-5xl font-black mb-12 text-balance">صورة قوية = مبيعات قوية</h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
             {ctaMessages.map((message, index) => (
@@ -51,7 +51,7 @@ export function CTASection() {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20 hover:bg-white/20 transition-all duration-300"
               >
-                <p className="text-lg font-semibold leading-relaxed text-pretty">{message}</p>
+                <p className="text-base font-semibold leading-relaxed text-pretty">{message}</p>
               </motion.div>
             ))}
           </div>
@@ -62,10 +62,10 @@ export function CTASection() {
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            <p className="text-2xl md:text-3xl font-bold mb-8 text-balance">بدال لاتقول منتجي زين خل الصورة تتكلم</p>
+            <p className="text-xl md:text-2xl font-bold mb-8 text-balance">بدال لاتقول منتجي زين خل الصورة تتكلم</p>
             <a
               href="#contact"
-              className="bg-white text-[#7B2553] hover:bg-white/90 font-bold py-5 px-12 rounded-full transition-all duration-300 shadow-2xl hover:shadow-3xl inline-block text-xl"
+              className="bg-white text-[#7B2553] hover:bg-white/90 font-bold py-5 px-12 rounded-full transition-all duration-300 shadow-2xl hover:shadow-3xl inline-block text-base md:text-lg"
             >
               ابدأ الآن
             </a>

@@ -50,7 +50,7 @@ export function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
-              className="text-5xl md:text-7xl font-black leading-tight text-balance"
+              className="text-4xl md:text-6xl font-black leading-tight text-balance"
             >
               منتجك حلو؟
               <br />
@@ -61,7 +61,7 @@ export function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
-              className="text-xl md:text-2xl text-white/90 leading-relaxed"
+              className="text-base md:text-lg text-white/90 leading-relaxed"
             >
               تصويرنا لمنتجاتك يخلّيك تقول: ليش ما صورت عندكم من قبل؟
             </motion.p>
