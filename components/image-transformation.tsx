@@ -82,7 +82,7 @@ export function ImageTransformation() {
       {/* Auto-play toggle button */}
       <button
         onClick={() => setIsAutoPlay((prev) => !prev)}
-        className="mt-3 w-full text-gray-600 hover:text-gray-900 text-xs sm:text-sm transition-colors"
+        className="mt-3 w-full text-white text-xs sm:text-sm transition-colors"
       >
         {isAutoPlay ? "⏸ إيقاف التشغيل التلقائي" : "▶ تشغيل تلقائي"}
       </button>
